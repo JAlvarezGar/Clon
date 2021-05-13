@@ -1,0 +1,49 @@
+.message{
+    display: grid;
+    background-color: black;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr;
+}
+.box1 {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 1fr;
+    align-items: start;
+}
+
+.sub-box1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+}
+
+.sub-box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #e2e2e2;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+.sub-box3{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+}
+.logo{
+    display: block;
+    width: 75px;
+    height: 30px;
+}
+.buscador{
+border:#e2e2e2
+}
